@@ -1,0 +1,10 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/powershell:1": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:2.8.0": {
+            "version": "latest",
+            "moby": true
+        }
+    }
+}
